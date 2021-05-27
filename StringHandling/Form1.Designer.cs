@@ -54,7 +54,7 @@
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(84, 23);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(235, 23);
             this.txtEmail.TabIndex = 1;
@@ -62,12 +62,13 @@
             // btnParse
             // 
             this.btnParse.Location = new System.Drawing.Point(337, 22);
-            this.btnParse.Margin = new System.Windows.Forms.Padding(2);
+            this.btnParse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnParse.Name = "btnParse";
             this.btnParse.Size = new System.Drawing.Size(78, 25);
             this.btnParse.TabIndex = 2;
             this.btnParse.Text = "Parse";
             this.btnParse.UseVisualStyleBackColor = true;
+            this.btnParse.Click += new System.EventHandler(this.btnParse_Click);
             // 
             // label2
             // 
@@ -82,7 +83,7 @@
             // txtCity
             // 
             this.txtCity.Location = new System.Drawing.Point(84, 86);
-            this.txtCity.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(235, 23);
             this.txtCity.TabIndex = 4;
@@ -100,7 +101,7 @@
             // txtState
             // 
             this.txtState.Location = new System.Drawing.Point(84, 116);
-            this.txtState.Margin = new System.Windows.Forms.Padding(2);
+            this.txtState.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtState.Name = "txtState";
             this.txtState.Size = new System.Drawing.Size(47, 23);
             this.txtState.TabIndex = 6;
@@ -118,7 +119,7 @@
             // txtZipCode
             // 
             this.txtZipCode.Location = new System.Drawing.Point(84, 147);
-            this.txtZipCode.Margin = new System.Windows.Forms.Padding(2);
+            this.txtZipCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtZipCode.Name = "txtZipCode";
             this.txtZipCode.Size = new System.Drawing.Size(106, 23);
             this.txtZipCode.TabIndex = 8;
@@ -126,17 +127,18 @@
             // btnFormat
             // 
             this.btnFormat.Location = new System.Drawing.Point(337, 146);
-            this.btnFormat.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFormat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFormat.Name = "btnFormat";
             this.btnFormat.Size = new System.Drawing.Size(78, 25);
             this.btnFormat.TabIndex = 9;
             this.btnFormat.Text = "Format";
             this.btnFormat.UseVisualStyleBackColor = true;
+            this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
             // 
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(337, 189);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(78, 25);
             this.btnExit.TabIndex = 10;
@@ -161,7 +163,7 @@
             this.Controls.Add(this.btnParse);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "String Handling";
